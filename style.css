@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+/*star of header*/
+
+
+
+.icon
+{
+	
+	margin-bottom: 2em;
+	height:32px;
+	width: 2em;
+	margin:10px;
+	padding: 1.2em;
+	position: relative;
+}
+
+.iconimage{
+	height: 32px;
+	width:2em;
+}
+
+
+nav{
+	
+	
+	text-align: right;
+	margin: 1em;
+	
+	
+}
+
+
+a{
+	
+	padding: 1.2em;
+	font-size: 14px;
+	color: inherit;
+	text-decoration: none;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}	
+/*end of header*/
+
+/*star of body*/
+
+div{
+
+	display: flex;
+    justify-content: space-around;
+    margin-top: 6em;
+    padding-right: 20em;
+
+}
+
+h1{
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+	font-size: 48px; 
+	line-height: 56px; 
+	letter-spacing: -0.8px; 
+	padding-top: 8px; 
+	padding-bottom: 8px; 
+	color: #484848; 
+	font-weight: 200; 
+	
+}
+
+span{
+	color: #FA556B;
+	font-weight: bold;
+}
+
+
+.photo, .photo2, .photo3, .photo4
+{
+	height: 390px ;
+	width: 17em;
+}
+
+/*end of body*/
