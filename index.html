@@ -6,98 +6,127 @@
 	<title>Air bnb</title>
 </head>
 <body>
-<figure class="icon">
-			<img class="iconimage" src="icon.png" alt="icon">
-		</figure>  
+
 	<header>
-		
+		<img class="iconimage" src="icone.png" alt="icon">
 		<nav>
 			<a href="hôte">Devenez hôte</a>
 			<a href="aide">Aide</a>
 			<a href="inscription">Inscription</a>
 			<a href="connexion">Connexion</a>
 		</nav>
-
-		
 	</header>
 
+
 	<div>
-	<h1><span>Airbnb</span> Réservez des logements<br>
-	uniques et vivez là-bas comme<br> 
-	des locaux.</h1>
+	
+
+	<div class="titre">
+		<h1><span>Airbnb</span> Réservez des logements<br>
+		uniques et vivez là-bas comme<br> 
+		des locaux.</h1>
 	</div>
 
-	<div class="input">
 
-	<input class="LocationInput input-large" name="location" placeholder="Destination, ville ou adresse" autocomplete="off" id="search-location" value="" data-reactid="21" type="text">
-
-	<input aria-label="Arrivée" class="DateInput__input needsclick" id="startDate" name="startDate" value="" placeholder="Arrivée" autocomplete="off" aria-describedby="" data-reactid="30" type="text">
-
-
-	<input aria-label="Départ" class="DateInput__input needsclick" id="endDate" name="endDate" value="" placeholder="Départ" autocomplete="off" aria-describedby="" data-reactid="37" type="text">
-
-
-	<button type="submit" class="btn btn-primary btn-large btn-block" data-reactid="96"><div data-reactid="97"><div class="hide-lg" data-reactid="98"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="display:block;fill:currentColor;height:1em;width:1em;" data-reactid="99"><path fill-rule="evenodd" d="M23.53 22.47l-6.807-6.808A9.455 9.455 0 0 0 19 9.5 9.5 9.5 0 1 0 9.5 19c2.353 0 4.502-.86 6.162-2.277l6.808 6.807a.75.75 0 0 0 1.06-1.06zM9.5 17.5a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" data-reactid="100"></path></svg></div><span class="SearchForm__submit-text hide-md" data-reactid="101"><span data-reactid="102">Rechercher</span></span></div></button></div>
-
+	<section class="inputone">
+	<form>
 	
-	</div> 
+		
+		<div class="voyage">
+    		<p>
+        <label for="voyage">Où?</label>
+        <input class="voyagearrive" type="text" name="pseudo" id="pseudo" placeholder="Destination, ville ou adresse" size="30"/>
+    		</p>
+		</div>
 
+
+		<div class="voyage">
+    		<p>
+        <label for="voyagearrive">Quand?</label>
+        <input class="voyagearrive" type="text" name="voyage" id="voyage" placeholder="Arrivée     >      Départ" size="30"/>
+    		</p>
+		</div>
+
+		
+		<div class="voyage">
+   			<p>
+   		<label>Voyageur</label>	
+       <select name="voyageur" id="voyageur">
+
+           <option value="adulte">1 voyageur</option>
+           <option value="enfant">0 enfant</option>
+           <option value="bébé">0 bébé</option>
+			
+			<input style="background-color:#FA556B; color:white; font-weight: bold;" class="rechercher" type="submit" value="Rechercher"/>
+       </select>
+
+   			</p>
+		</div>
+		
+	</form>
+
+	</section>
+
+ 
+<!-- In this div is from css -->
+ 	<section class="test">
+		<h4 style="color: #484848;">Réservées à l'instant</h4>
 	<div class="photos">
-		<section>
-			<h4>Nouveautés à Harlem</h4><br>
+	
 			<figure>
-				<img class="photo" src="photo.jpg" alt="woman">
-				<p>43€ An immersive art and cultural<br> experience in Harlem</p>
+				<img class="reserv1" src="reserv1.png" alt="reserve">
+				 <p style="color: #484848;"><span style="font-weight: bold; color: #484848;">56€</span> Tailor your own pocket<br> square in Harlem</p>  
+			</figure> 
 
-				<img class="photo2" src="photo2.jpg" alt="tag">
-				<p>47€Walk, talk, and create with a legend of the wall</p>
+			<figure>
+				<img class="reserv2" src="reserv2.png" alt="reserve">
+				<figcaption style="color: #484848;"><span style="font-weight: bold; color: #484848;">47€</span>Walk, talk, and create with<br> a legend of the wall</figcaption>
+			</figure>	
 				
-
-				<img class="photo3" src="photo3.jpg" alt="femme vend des legumes">
-				<p>66€Indulge in cultural classics with a healthy twist</p>
-
-				<img class="photo4" src="photo4.jpg" alt="barbu">
-				<p>56€Tailor your own pocket square in Harlem</p>
-			</figure>
-		</section>
-
-		<section>
-			<h4>Réservées à l'instant</h4>
 			<figure>
-				<img class="photo5" src="photo5.jpg" alt="photo">
-				<img class= "photo6" src="photo6.jpg" alt="photo6">
-				<img class= "photo7" src="photo7.jpg" alt="poisson">
-				<img class="photo8" src="photo8.jpg" alt="photo8">
+				<img class="reserv3" src="reserv3.png" alt="reserve">
+				<figcaption style="color:#484848;"><span style="font-weight: bold; color: #484848;">66€</span>
+				Indulge in cultural classics<br> with a healthy twist</figcaption>
 			</figure>
-		</section>
 
-		<section>
-			<h4>Logements</h4>
 			<figure>
-				<img src="image.png" alt="image">
-				<img src="image2.png" alt="image2">
-				<img src="image3.png" alt="image3">
+				<img class="reserv4" src="reserv4.png" alt="reserve">
+				<p style="color:#484848";><span style="font-weight: bold; color: #484848;">19€</span> secrets to coffee business</p>
 			</figure>
-		</section>	
+	</div>
+	</section>
 
-		<section>
-			<h4>Destinations à la une</h4>
-			<figure>
-				<img src="tokyo.png" alt="tokyo">
-				<img src="miami.png" alt="miami">
-				<img src="paris.png" alt="paris">
-				<img src="los.png" alt="los">
-				<img src="londre.png" alt="londres">
-				<img src="florence.png" alt="florence">
-			</figure>
-		</section>	
+	<section class="test">
+		<h4 style="color: #484848;">Expériences</h4> 
+	<div class="photos">
 
-		<section>
-			<h4 class="">Ouvrez la page à un voyageur et à une nouvelle vie</h4>
 			<figure>
-				<img src="troisfemmes.png" alt="femmes">
+				<img class="exp" src="exp.png" alt="exp">
+				 <p style="color: #484848;"><span style="font-weight: bold; color: #484848;">30€</span> what goes well with<br> sake and how to enjoy sake!</p>  
+			</figure> 
+
+			<figure>
+				<img class="exp2" src="exp2.png" alt="exp2">
+				<figcaption style="color: #484848;"><span style="font-weight: bold; color: #484848;">40€</span>Play soccer andhang with<br> the locals</figcaption>
+			</figure>	
+				
+			<figure>
+				<img class="exp3" src="exp3.png" alt="exp3">
+				<figcaption style="color:#484848;"><span style="font-weight: bold; color: #484848;">52€</span>
+				Come visit our residence<br>and cook, have tea</figcaption>
 			</figure>
-		</section>
+
+			<figure>
+				<img class="exp4" src="exp4.png" alt="exp4">
+				<p style="color:#484848";><span style="font-weight: bold; color: #484848;">72€</span> Hike to the Hollywood bowl through Secret Stairs</p>
+			</figure>
+
+	</div>
+	</section>
+
+
+
+
 
 
 	</div>

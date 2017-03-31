@@ -5,37 +5,25 @@
 
 /*star of header*/
 
-
-
-.icon
-{
-	
-	margin-bottom: 2em;
-	height:32px;
-	width: 2em;
-	margin:10px;
-	padding: 1.2em;
-	position: relative;
+.iconimage, nav{
+	display: inline-block;
+	color: #484848;
 }
 
 .iconimage{
-	height: 32px;
-	width:2em;
+	margin: 1em;
 }
 
 
+
 nav{
-	
-	
 	text-align: right;
 	margin: 1em;
-	
-	
+	float: right;
 }
 
 
 a{
-	
 	padding: 1.2em;
 	font-size: 14px;
 	color: inherit;
@@ -44,10 +32,16 @@ a{
 }	
 /*end of header*/
 
+
 /*star of body*/
-
+/*
 div{
+	margin: 0 4%;
+}*/
 
+
+.titre{
+	
 	display: flex;
     justify-content: space-around;
     margin-top: 6em;
@@ -63,7 +57,8 @@ h1{
 	padding-top: 8px; 
 	padding-bottom: 8px; 
 	color: #484848; 
-	font-weight: 200; 
+	font-weight: 200;
+	height :6em;
 	
 }
 
@@ -71,12 +66,86 @@ span{
 	color: #FA556B;
 	font-weight: bold;
 }
+/* star div voyage*/
+.inputone{
+	margin: 0 4%;
+}
 
 
-.photo, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8
+form{
+	/*background-color: red;*/
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	height: 4em;
+}
+
+label{
+	color: #484848; 
+}
+/*end of div voyage*/
+
+/*star of div photos*/
+.voyage, .voyagearrive{
+	border: 1px #e4e4e4 solid;
+	width: 100%;
+}
+
+.voyage{
+	height: 5em;
+}
+
+
+.voyagearrive{
+	height: 4em;
+	width: 95%;
+}
+
+.rechercher{
+	height: 3em;
+	width: 150px;
+}
+
+.test{
+	display: flex;
+	flex-direction: column;
+	margin:40px;
+
+}
+
+.photos{
+	padding: 4%;
+	justify-content:space-between;
+	display: flex;
+	flex-direction: row;	
+}
+
+figure{
+	padding: 1px;
+	margin: 1px;
+}
+/*end of div photos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.photo, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8
 {
 	height: 390px ;
-	width: 17em;
-}
+	width:17em;
+}*/
 
 /*end of body*/
