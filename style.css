@@ -34,8 +34,8 @@ a{
 
 
 /*star of body*/
-/*
-div{
+
+/*div{
 	margin: 0 4%;
 }*/
 
@@ -126,26 +126,39 @@ figure{
 }
 /*end of div photos*/
 
+.femmes3{
+
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.femmes{
+	
+	order: 1;
+	margin-right:4em;
+	}
+
+.ouvrez{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 4em;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.ouvrezmoi{
+	font-size: 1.5em;
+}
+
+.boutton{
+	margin-right:20em;
+	height: 2em;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.photo, .photo2, .photo3, .photo4, .photo5, .photo6, .photo7, .photo8
-{
-	height: 390px ;
-	width:17em;
-}*/
 
 /*end of body*/
